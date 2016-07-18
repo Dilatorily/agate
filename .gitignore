@@ -1,0 +1,5 @@
+.*
+!.babelrc
+!.gitignore
+dist
+node_modules
