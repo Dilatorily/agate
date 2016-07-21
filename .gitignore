@@ -1,5 +1,7 @@
 .*
 !.babelrc
+!.editorconfig
+!.eslintrc
 !.gitignore
 *.log
 dist
