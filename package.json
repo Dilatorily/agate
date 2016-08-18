@@ -44,6 +44,6 @@
     "eslint-plugin-react": "^6.1.2",
     "html-webpack-plugin": "^2.22.0",
     "rimraf": "^2.5.3",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.2"
   }
 }
