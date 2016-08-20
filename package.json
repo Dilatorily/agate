@@ -4,10 +4,10 @@
   "description": "Electron-based music player",
   "scripts": {
     "clean": "rimraf dist",
-    "build:application": "webpack --config src/application/webpack.config.js",
-    "build:browser": "webpack --config src/browser/webpack.config.js",
+    "build:electron": "webpack --config src/electron/webpack.config.js",
+    "build:client": "webpack --config src/client/webpack.config.js",
     "prebuild": "npm run clean",
-    "build": "concurrently -kr \"npm run build:application\" \"npm run build:browser\"",
+    "build": "concurrently -kr \"npm run build:electron\" \"npm run build:client\"",
     "prestart": "npm run build",
     "start": "electron dist"
   },

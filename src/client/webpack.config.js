@@ -1,11 +1,17 @@
+const HtmlPlugin = require('html-webpack-plugin'); // eslint-disable-line import/no-extraneous-dependencies, max-len
+
 module.exports = {
-  entry: {
-    index: './src/application/index.js',
-  },
+  entry: './src/client/index.js',
   output: {
     path: 'dist',
-    filename: '[name].js',
+    filename: '[name].[hash].js',
   },
+  plugins: [
+    new HtmlPlugin({
+      template: 'src/client/index.html',
+      inject: 'body',
+    }),
+  ],
   module: {
     preLoaders: [
       {
@@ -26,8 +32,4 @@ module.exports = {
   eslint: {
     failOnError: true,
   },
-  node: {
-    __dirname: false,
-  },
-  target: 'electron',
 };

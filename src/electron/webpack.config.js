@@ -1,17 +1,11 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 module.exports = {
-  entry: './src/browser/index.js',
+  entry: {
+    index: './src/electron/index.js',
+  },
   output: {
     path: 'dist',
-    filename: '[name].[hash].js',
+    filename: '[name].js',
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: 'src/browser/index.html',
-      inject: 'body',
-    }),
-  ],
   module: {
     preLoaders: [
       {
@@ -32,4 +26,8 @@ module.exports = {
   eslint: {
     failOnError: true,
   },
+  node: {
+    __dirname: false,
+  },
+  target: 'electron',
 };
