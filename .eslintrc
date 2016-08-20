@@ -1,6 +1,7 @@
 {
   "extends": ["airbnb", "plugin:import/electron"],
   "env": {
-    "browser": true
+    "browser": true,
+    "jasmine": true
   }
 }
