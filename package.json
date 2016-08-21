@@ -10,7 +10,7 @@
     "build": "npm run build:electron && npm run build:client",
     "prestart": "npm run build",
     "start": "electron dist",
-    "test": "nyc --reporter=lcov babel-node src/tests"
+    "test": "nyc --reporter=lcov -n=src/**/*.{js,jsx} babel-node tests"
   },
   "repository": {
     "type": "git",
