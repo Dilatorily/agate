@@ -1,7 +1,7 @@
 import { jsdom } from 'jsdom'; // eslint-disable-line import/no-extraneous-dependencies
 
 const window = `
-  <!DOCTYPE>
+  <!DOCTYPE html>
   <html>
     <body>
       <div id="root"></div>
