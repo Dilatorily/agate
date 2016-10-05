@@ -30,23 +30,23 @@
   },
   "homepage": "https://github.com/Dilatorily/agate#readme",
   "dependencies": {
-    "electron-prebuilt": "^1.3.5"
+    "electron-prebuilt": "^1.4.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.14.0",
+    "babel-cli": "^6.16.0",
     "babel-loader": "^6.2.5",
-    "babel-preset-latest": "^6.14.0",
-    "eslint": "^3.5.0",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.7.1",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-loader": "^1.5.0",
-    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-jsx-a11y": "^2.2.2",
-    "eslint-plugin-react": "^6.2.1",
+    "eslint-plugin-react": "^6.3.0",
     "html-webpack-plugin": "^2.22.0",
-    "jasmine": "^2.5.1",
+    "jasmine": "^2.5.2",
     "jasmine-spec-reporter": "^2.7.0",
-    "jsdom": "^9.5.0",
-    "nyc": "^8.1.0",
+    "jsdom": "^9.6.0",
+    "nyc": "^8.3.0",
     "rimraf": "^2.5.3",
     "webpack": "^1.13.2"
   }
