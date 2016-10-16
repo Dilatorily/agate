@@ -45,7 +45,7 @@
     "html-webpack-plugin": "^2.22.0",
     "jasmine": "^2.5.2",
     "jasmine-spec-reporter": "^2.7.0",
-    "jsdom": "^9.6.0",
+    "jsdom": "^9.8.0",
     "nyc": "^8.3.0",
     "rimraf": "^2.5.3",
     "webpack": "^1.13.2"
