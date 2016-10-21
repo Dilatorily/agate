@@ -42,7 +42,7 @@
     "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-jsx-a11y": "^3.0.0",
     "eslint-plugin-react": "^6.3.0",
-    "html-webpack-plugin": "^2.22.0",
+    "html-webpack-plugin": "^2.23.0",
     "jasmine": "^2.5.2",
     "jasmine-spec-reporter": "^2.7.0",
     "jsdom": "^9.6.0",
