@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/Dilatorily/agate#readme",
   "dependencies": {
-    "electron-prebuilt": "^1.4.2"
+    "electron-prebuilt": "^1.4.5"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
